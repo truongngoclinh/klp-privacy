@@ -1,3 +1,5 @@
-# Kid Learning Portal
+# klp-privacy
 
-Self-learning platform for my kids; every learning resource I build for them lives here.
+The privacy policy for the Kid Learning Portal app, served by GitHub Pages at https://truongngoclinh.github.io/klp-privacy/
+
+The page is the single file `index.html` (no scripts, no build). Change it only by pull request.
