@@ -27,24 +27,41 @@
 <main>
 
 <h1>Kid Learning Portal – Privacy Policy</h1>
-<p class="meta">Effective: 2026-11-25</p>
-<p class="meta">Applies to: Kid Learning Portal for Android (io.github.truongngoclinh.klp), version 0.1.0 and later versions until this page is updated.</p>
+<p class="meta">Effective: 2026-11-27</p>
+<p class="meta">Applies to: Kid Learning Portal for Android (io.github.truongngoclinh.klp), version 0.2.0 and later. Earlier versions: no cloud backup, nothing sent off the device.</p>
 
 <h2>Short version</h2>
 <ul>
-  <li>No sign-in. There are no accounts.</li>
-  <li>No personal data is collected.</li>
+  <li>Cloud backup is optional and only for grown-ups. The app works fully without it.</li>
+  <li>If a grown-up turns it on, the child's game progress and game answers are backed up to our server so they can be restored on another device.</li>
+  <li>While backup is on, the app also sends anonymous usage counts that are not linked to anyone.</li>
+  <li>No sign-in: we never ask for a name, email address or any account.</li>
   <li>Nothing is shared or sold.</li>
-  <li>No ads.</li>
-  <li>No analytics or tracking.</li>
+  <li>No ads. No tracking.</li>
 </ul>
 
 <h2>What stays on the device</h2>
-<p>The child's game progress is stored only on the device, in the app's own storage. It is never sent off the device.</p>
+<p>When cloud backup is off: the child's game progress is stored only on the device, in the app's own storage. It is never sent off the device.</p>
 <p>Uninstalling the app removes it. A grown-up can also delete it at any time in the app's grown-ups area.</p>
 
+<h2>If a grown-up turns on cloud backup</h2>
+<p><strong>How it works:</strong> the app makes a random family code on the device. Anyone with the code can restore the backup on another device, so keep it safe. We store only a one-way scrambled form of the code, which isn't linked to any name, email or other account.</p>
+<p><strong>What we receive:</strong> the child's progress (stickers, finished days and their dates) and each game round: which game and day, the puzzle shown, the answers the child tapped, how many tries and hints, and when the round started and ended. No names, voice, photos or free text.</p>
+<p><strong>Why:</strong> to back up, to restore progress and the weekly report on another device, and to show the report to the grown-up.</p>
+<p><strong>Where:</strong> our server in Tokyo, Japan (Amazon Lightsail), encrypted in transit (HTTPS).</p>
+<p><strong>One family code is for one child.</strong></p>
+
+<h2>Anonymous usage counts</h2>
+<p>Only while cloud backup is on: a play session started or finished (with a rough length), a game finished (with how many rounds needed the step-by-step hint), the report opened, an error screen shown.</p>
+<p>They carry no family, child or device id, only the day they arrived, so they can't be linked to anyone or deleted per family. Used only to improve the app. Kept 13 months, then deleted. Never sent while cloud backup is off.</p>
+
+<h2 id="delete">Deleting your data</h2>
+<p><strong>In the app:</strong> grown-ups area › Cloud backup › "Delete cloud backup" (everything on our server for this family), or grown-ups area › "Delete your child's data" (on this device and in the cloud backup). Other devices on the same family code delete their copy the next time they are opened.</p>
+<p><strong>By email:</strong> write to the contact address below <strong>with your family code</strong> (we have no other way to find your data). We delete within 30 days.</p>
+<p><strong>How long we keep it:</strong> until a grown-up deletes it. Server backups are overwritten within 14 days. If the family code is lost on every device, we can't find or return the backup, but the copy on each device stays.</p>
+
 <h2>What we do not collect</h2>
-<p>The app does not collect, store on a server, or send:</p>
+<p>We never collect:</p>
 <ul>
   <li>names or email addresses</li>
   <li>contacts or photos</li>
@@ -53,23 +70,22 @@
   <li>camera images</li>
   <li>device identifiers or advertising IDs (AD_ID)</li>
   <li>crash logs</li>
-  <li>usage analytics</li>
 </ul>
 
 <h2>Third parties</h2>
-<p>The app has no third-party SDKs for ads, analytics or crash reporting.</p>
-<p>Momo's voice uses the device's built-in text-to-speech. The app only gives it Momo's fixed lines, never anything about the child. If the device's text-to-speech engine uses an online voice, that is handled by the device's own speech service, not by this app.</p>
+<p>The app has no SDKs for sign-in, ads, analytics or crash reporting.</p>
+<p>Momo's voice is recorded clips shipped inside the app; the device's text-to-speech is used only if a clip is missing. The app only gives it Momo's fixed lines, never anything about the child.</p>
 
 <h2>Children</h2>
 <p>Kid Learning Portal is made for children ages 5 and under and 6–8 (Google Play Families).</p>
-<p>We do not knowingly collect personal information from children, or from anyone.</p>
+<p>Cloud backup is behind a grown-ups gate and is meant for parents; the child never sees it. We collect the child's game progress and answers only after a grown-up turns it on, and only to back them up and show the report.</p>
 <p>Before a grown-up deletes data in the app, the device asks them to confirm with Face ID, a fingerprint or the device PIN. That check happens on the device, and we receive nothing.</p>
 
 <h2>Permissions</h2>
 <p>The app does not ask for access to location, the microphone, the camera, contacts or storage.</p>
 
 <h2>Changes</h2>
-<p>If a later version adds sign-in or sends any data, this page will be updated before that version is released, and the effective date above will change.</p>
+<p>If a later version changes what the app collects or sends, this page will be updated before that version is released, and the effective date above will change.</p>
 
 <h2>This web page</h2>
 <p>This page is hosted by GitHub Pages. GitHub may log visits under its own privacy statement. The page itself uses no cookies and no scripts.</p>
